@@ -5,3 +5,7 @@ ArchiveData/customer_table.sql
 ImportCSVDemo/ArchiveData/customer_table.sql
 ImportCSVDemo/ArchiveData/customer_10GB.csv
 ImportCSVDemo/ArchiveData/customer_100MB.csv
+ImportCSVDemo/bin/Debug/ImportCSVDemo.exe
+ImportCSVDemo/bin/Debug/ImportCSVDemo.pdb
+ImportCSVDemo/obj/Debug/ImportCSVDemo.exe
+ImportCSVDemo/obj/Debug/ImportCSVDemo.pdb

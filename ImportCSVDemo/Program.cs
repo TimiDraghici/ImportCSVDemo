@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualBasic.FileIO;
 using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -17,7 +18,6 @@ namespace ImportCSVDemo
         {
             string path = Environment.CurrentDirectory;
             string csvPath = path.Replace(@"bin\Debug", @"ArchiveData\customer_100MB.csv");
-            Console.WriteLine(csvPath);
 
             Stopwatch stopwatch = new Stopwatch();
 
@@ -29,8 +29,13 @@ namespace ImportCSVDemo
                 using (SqlBulkCopy bulkCopy = new SqlBulkCopy(conn))
                 {
                     bulkCopy.DestinationTableName = "dbo.customer";
-                    foreach (var column in dataFromCSV.Columns)
-                        bulkCopy.ColumnMappings.Add(column.ToString(), column.ToString());
+
+                    Parallel.ForEach(dataFromCSV.Columns.Cast<object>(),
+                        currentElement =>
+                        {
+                            bulkCopy.ColumnMappings.Add(currentElement.ToString(), currentElement.ToString());
+                        });
+
                     bulkCopy.WriteToServer(dataFromCSV);
                 }
                 conn.Close();
