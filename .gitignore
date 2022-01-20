@@ -1,0 +1,7 @@
+
+ArchiveData/customer_table.sql
+*.json
+.vs/ImportCSVDemo/v17/.suo
+ImportCSVDemo/ArchiveData/customer_table.sql
+ImportCSVDemo/ArchiveData/customer_10GB.csv
+ImportCSVDemo/ArchiveData/customer_100MB.csv

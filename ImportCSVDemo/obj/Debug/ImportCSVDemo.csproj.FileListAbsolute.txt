@@ -1,0 +1,16 @@
+C:\Users\SeptimiuDraghici\source\repos\ImportCSVDemo\ImportCSVDemo\bin\Debug\ImportCSVDemo.exe.config
+C:\Users\SeptimiuDraghici\source\repos\ImportCSVDemo\ImportCSVDemo\bin\Debug\ImportCSVDemo.exe
+C:\Users\SeptimiuDraghici\source\repos\ImportCSVDemo\ImportCSVDemo\bin\Debug\ImportCSVDemo.pdb
+C:\Users\SeptimiuDraghici\source\repos\ImportCSVDemo\ImportCSVDemo\obj\Debug\ImportCSVDemo.csproj.AssemblyReference.cache
+C:\Users\SeptimiuDraghici\source\repos\ImportCSVDemo\ImportCSVDemo\obj\Debug\ImportCSVDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\SeptimiuDraghici\source\repos\ImportCSVDemo\ImportCSVDemo\obj\Debug\ImportCSVDemo.csproj.CoreCompileInputs.cache
+C:\Users\SeptimiuDraghici\source\repos\ImportCSVDemo\ImportCSVDemo\obj\Debug\ImportCSVDemo.exe
+C:\Users\SeptimiuDraghici\source\repos\ImportCSVDemo\ImportCSVDemo\obj\Debug\ImportCSVDemo.pdb
+C:\ImportCSVDemo\ImportCSVDemo\bin\Debug\ImportCSVDemo.exe.config
+C:\ImportCSVDemo\ImportCSVDemo\bin\Debug\ImportCSVDemo.exe
+C:\ImportCSVDemo\ImportCSVDemo\bin\Debug\ImportCSVDemo.pdb
+C:\ImportCSVDemo\ImportCSVDemo\obj\Debug\ImportCSVDemo.csproj.AssemblyReference.cache
+C:\ImportCSVDemo\ImportCSVDemo\obj\Debug\ImportCSVDemo.csproj.SuggestedBindingRedirects.cache
+C:\ImportCSVDemo\ImportCSVDemo\obj\Debug\ImportCSVDemo.csproj.CoreCompileInputs.cache
+C:\ImportCSVDemo\ImportCSVDemo\obj\Debug\ImportCSVDemo.exe
+C:\ImportCSVDemo\ImportCSVDemo\obj\Debug\ImportCSVDemo.pdb
